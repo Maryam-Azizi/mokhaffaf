@@ -1,0 +1,75 @@
+/*RESET STYLES*/
+div{
+	box-sizing:border-box;
+}
+
+
+#container{
+	background: #E8E5E5;
+}
+#content{
+	background: #E8E5E5;
+	
+/*	padding-left: 10%;
+	padding-top: 10%;*/
+	
+}
+
+#header{
+	background:#5F5FF3;
+	height:100px;
+	text-align:center;
+	padding-top:30px;
+}
+.inline-block{
+	display:inline-block;	
+}
+.search-box{
+	background: white;
+	height: 30px;
+	padding:5px;
+	
+}
+#header span{
+	 padding-right: 5px;
+}
+ #header input{
+	border:none;
+	height: 22px;
+	padding:none; 
+ }
+
+#main {	
+	float:left;
+	width:60%;
+	background: white;
+	padding-left: 10px;
+	padding-right:10px;
+	margin: 10% 0% 0% 10%;
+	min-height: 800px;
+/*insted of padding in content*/	
+}
+#main h1,#main h3 {
+	border-bottom: 1px solid #8A8A8A;
+	
+}
+
+#nav{
+	float: left;
+	width:30%;
+}
+ul{
+	padding:5px;
+	list-style-type: none;
+}
+ul a{
+	text-decoration: none;
+	color:#333
+}
+
+.clear{
+	clear:both;
+}
+#header p{
+	
+}
